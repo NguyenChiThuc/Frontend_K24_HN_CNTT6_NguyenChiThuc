@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f7ff;
+  padding: 20px;
+}
+.list {
+  width: 600px;
+  margin: auto;
+}
+.item {
+  align-items: center;
+  gap: 15px;
+  background: #d7ebf9;
+  padding: 18px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  transition: 0.3s;
+}
+.item:hover {
+  background: aqua;
+}

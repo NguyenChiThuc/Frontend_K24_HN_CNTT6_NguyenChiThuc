@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+button[data-type="primary"] {
+  color: white;
+  background-color: aqua;
+  padding: 8px;
+  margin: 8px;
+  border: none;
+  border-radius: 4px;
+}
+button[data-type="secondary"] {
+  color: white;
+  background-color: gray;
+  padding: 8px;
+  margin: 8px;
+  border: none;
+  border-radius: 4px;
+}
+button[data-type="danger"] {
+  color: white;
+  background-color: red;
+  padding: 8px;
+  margin: 8px;
+  border: none;
+  border-radius: 4px;
+}
