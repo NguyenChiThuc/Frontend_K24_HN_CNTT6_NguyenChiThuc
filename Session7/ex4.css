@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  color: rgb(35, 35, 35);
+  margin: 0;
+  padding: 0;
+  width: 680px;
+}
+.a {
+  border-left: 5px solid #ff6116;
+  margin: 10px;
+  text-indent: 10px;
+}
+.b {
+  font-size: 30px;
+  text-indent: 10px;
+}
+.c {
+  position: relative;
+  text-indent: 10px;
+}
+.c h2 {
+  position: absolute;
+  bottom: 50px;
+  text-indent: 60px;
+  font-size: 40px;
+  color: aliceblue;
+  text-indent: 40px;
+}
+.e {
+  text-indent: 60px;
+  font-size: 40px;
+  color: aliceblue;
+  text-indent: 40px;
+}
+.h {
+  color: black;
+  border-bottom: 1px solid gray;
+  font-size: 35px;
+}
+.i {
+  padding: 10x;
+}
+img {
+  margin: 10px;
+}

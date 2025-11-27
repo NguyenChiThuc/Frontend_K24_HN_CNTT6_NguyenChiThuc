@@ -1,0 +1,30 @@
+#Consultation {
+  padding: 10px;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  background-color: red;
+}
+#Exam {
+  padding: 10px;
+  border-color: #231651;
+  border-radius: 5px;
+  color: #231651;
+}
+td {
+  padding-left: 10px;
+  color: #231651;
+}
+h1 {
+  text-align: center;
+  color: #231651;
+}
+table {
+  padding-bottom: 10px;
+}
+.container {
+  background-color: #f2f1f5;
+  height: 300px;
+  width: 450px;
+  border-radius: 5px;
+}

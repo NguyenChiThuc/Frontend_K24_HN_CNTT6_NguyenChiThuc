@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+  transition: all 0.4s ease;
+  width: 350px;
+  padding: 15px;
+  margin: 100px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+.card-image .sale {
+  padding: 5px 10px;
+  color: white;
+  position: absolute;
+  background-color: orange;
+  border-radius: 5px;
+  top: 10px;
+  right: 10px;
+}
+.card-title {
+  font-weight: bold;
+  margin: 10px 0;
+}
+.card-cost {
+  color: orange;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.card-btn {
+  width: 100%;
+  background-color: blue;
+  color: white;
+  border: none;
+  height: 35px;
+  border-radius: 5px;
+}
+.card:hover {
+  transform: translateY(-20px);
+}
+.card-image {
+  position: relative;
+}
